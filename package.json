@@ -22,6 +22,7 @@
     "@ember/optional-features": "^0.6.3",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.1.0",
+    "ember-auto-import": "^1.2.21",
     "ember-cli": "~3.7.1",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.1.2",
@@ -43,9 +44,14 @@
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.8.0"
+    "qunit-dom": "^0.8.0",
+    "recordrtc": "^5.5.4",
+    "video.js": "^7.4.1",
+    "videojs-record": "^3.4.3",
+    "webrtc-adapter": "^7.2.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
-  }
+  },
+  "dependencies": {}
 }

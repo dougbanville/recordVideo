@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>HiyaRecord</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     {{content-for "head"}}
-
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/hiya-record.css">
+    <link href="https://cdn.jsdelivr.net/npm/videojs-record@3.4.3/dist/css/videojs.record.css" rel="stylesheet">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
+    <link
+      integrity=""
+      rel="stylesheet"
+      href="{{rootURL}}assets/hiya-record.css"
+    />
 
     {{content-for "head-footer"}}
   </head>
   <body>
     {{content-for "body"}}
-
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/hiya-record.js"></script>
 
+
     {{content-for "body-footer"}}
   </body>
+ <!-- <script src="https://cdn.jsdelivr.net/npm/videojs-record@3.4.3/dist/videojs.record.min.js"></script> -->
 </html>
